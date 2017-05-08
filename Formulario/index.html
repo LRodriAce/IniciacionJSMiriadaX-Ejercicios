@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Creación de Formularios con JS</title>
+  </head>
+
+  <body onload="loadDate()">
+    <h1>Create an account</h1>
+    <h2>It's free and always will be.</h2>
+
+    <form action="" method="post">
+      <input id="firstName" type="text" name="firstName" value="First name"/>
+
+      <input id="surname" type="text" name="surname" value="Surname"/>
+
+      <input id="email" type="email" name="emailAccount" value="Email or mobile number"/>
+
+      <input class "error" id="emailReenter" type="email" name="emailAccountReenter"
+          value="Re-enter email or mobile number"
+      />
+      <input id="password" type="password" name="userPassword" value="New password"/>
+
+      <p id="birthday">Birthday</p>
+      <select id="days" name="Day">
+      </select>
+
+      <select id="months" name="Month">
+      </select>
+
+      <select id="years" name="Year">
+      </select>
+
+      <p id="why">Why do I need to provide my date of birth?</p>
+
+      <input id="gender1" type="radio" value="female" name="gender" />
+      <label id="genderF" for="gender1">Female</label>
+
+      <input id="gender2" type="radio" value="male" name="gender" />
+      <label id="genderM" for="gender2">Male</label>
+
+      <p id="clicking">By clicking Create an account, you agree to our <a href="">Terms</a>
+          and that you have read our <a href="">Data Policy</a>, including our
+          <a href=""> Cookie Use</a>.
+      </p>
+      <input id="submit" type="button" name="btnCreateAccount" value="Create an account" onclick="createAccount()">
+      <p id="createAccountCheck"></p>
+    </form>
+    <script src="./js/main.js" charset="utf-8"></script>
+  </body>
+</html>
