@@ -1,2 +1,2 @@
-# IniciacionJSMiriadaX-Ejercicios
-Ejercicios del curso de iniciación a JS de MiriadaX
+Initiation to JavaScript
+MiriadaX Course exercises and evaluation exercises
