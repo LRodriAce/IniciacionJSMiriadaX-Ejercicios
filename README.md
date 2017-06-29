@@ -1,2 +1,2 @@
-Initiation to JavaScript
+## Initiation to JavaScript
 MiriadaX Course exercises and evaluation exercises
